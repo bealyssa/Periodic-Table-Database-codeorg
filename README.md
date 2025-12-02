@@ -19,3 +19,15 @@ The database contains three tables:
 - `elements` - atomic number, symbol, and name
 - `properties` - atomic mass, melting point, boiling point, and type
 - `types` - element types (metal, nonmetal, metalloid)
+
+## Examples
+```bash
+# Query by atomic number
+./element.sh 1
+
+# Query by symbol
+./element.sh H
+
+# Query by name
+./element.sh Hydrogen
+```
